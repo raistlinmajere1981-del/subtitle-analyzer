@@ -1,0 +1,35 @@
+.primary-button,
+.secondary-button,
+.icon-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 38px;
+  gap: 8px;
+  border-radius: 8px;
+  font-weight: 700;
+}
+
+.primary-button,
+.secondary-button {
+  padding: 0 14px;
+}
+
+.primary-button {
+  border: 1px solid #1d4ed8;
+  background: var(--blue);
+  color: #ffffff;
+}
+
+.secondary-button {
+  border: 1px solid var(--line-strong);
+  background: var(--panel-strong);
+  color: #292520;
+}
+
+.icon-button {
+  width: 38px;
+  border: 1px solid var(--line-strong);
+  background: var(--panel-strong);
+  color: #292520;
+}

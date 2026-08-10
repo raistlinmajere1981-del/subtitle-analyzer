@@ -1,0 +1,32 @@
+.metric-strip.compact {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.analysis-metric {
+  display: grid;
+  gap: 5px;
+  padding: 13px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.analysis-metric span,
+.analysis-metric small {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.analysis-metric strong {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.analysis-subheading {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: #4b463d;
+  font-size: 12px;
+  font-weight: 900;
+}

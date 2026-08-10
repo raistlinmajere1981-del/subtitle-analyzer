@@ -1,0 +1,66 @@
+@media (max-width: 1220px) {
+  .toolbar {
+    grid-template-columns: minmax(240px, 1fr);
+  }
+
+  .analysis-layout {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: none;
+    align-items: start;
+    overflow: auto;
+  }
+
+  .analysis-main,
+  .analysis-side {
+    overflow: visible;
+  }
+
+  .analysis-result-grid,
+  .overview-score-grid,
+  .overview-module-grid,
+  .overview-readout-grid,
+  .analysis-report-score-grid,
+  .analysis-report-columns,
+  .evidence-map-grid,
+  .fingerprint-chip-grid,
+  .fingerprint-signal-grid,
+  .fingerprint-evidence > div,
+  .continuity-score-grid,
+  .continuity-two-column,
+  .mythology-affinity-grid,
+  .mythology-two-column,
+  .rmi-score-panel,
+  .rmi-dimensions,
+  .character-score-grid,
+  .character-two-column,
+  .character-node-grid,
+  .drift-score-grid,
+  .drift-two-column,
+  .believability-score-panel,
+  .believability-dimensions,
+  .believability-two-column,
+  .cross-model-grid,
+  .reality-index-panel,
+  .analysis-toolbar {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .timeline-row {
+    grid-template-columns: 76px minmax(0, 1fr) 56px;
+  }
+
+  .timeline-row small {
+    display: none;
+  }
+
+  .metric-strip,
+  .metric-strip.compact {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 1120px) {
+  .subtitle-workbench {
+    grid-template-columns: 340px minmax(0, 1fr);
+  }
+}

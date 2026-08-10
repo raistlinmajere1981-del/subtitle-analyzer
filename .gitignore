@@ -1,0 +1,12 @@
+node_modules/
+out/
+dist/
+.vite/
+.DS_Store
+*.log
+*.tsbuildinfo
+.directory
+.antigravitycli/
+tmp/
+data/
+archive/

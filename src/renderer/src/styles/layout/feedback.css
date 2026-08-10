@@ -1,0 +1,16 @@
+.action-banner {
+  min-height: 38px;
+  padding: 10px 13px;
+  border: 1px solid #bfdbfe;
+  border-radius: 8px;
+  background: #eff6ff;
+  color: #1d4ed8;
+  font-size: 13px;
+  font-weight: 760;
+}
+
+.action-banner.error {
+  border-color: #fecdd3;
+  background: #fff1f2;
+  color: #9f1239;
+}

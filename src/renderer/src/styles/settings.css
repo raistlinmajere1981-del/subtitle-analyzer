@@ -1,0 +1,45 @@
+.install-list,
+.settings-form {
+  display: grid;
+  gap: 10px;
+}
+
+.install-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 54px;
+  gap: 12px;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.install-row strong,
+.install-row small {
+  display: block;
+}
+
+.install-row small {
+  margin-top: 3px;
+  color: var(--muted);
+}
+
+.settings-form label {
+  display: grid;
+  gap: 7px;
+  color: #554f45;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.settings-form input {
+  height: 38px;
+  border: 1px solid var(--line-strong);
+  border-radius: 8px;
+  padding: 0 11px;
+  background: #ffffff;
+  color: var(--ink);
+  font-weight: 700;
+}

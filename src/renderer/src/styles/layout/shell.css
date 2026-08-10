@@ -1,0 +1,47 @@
+.app-shell {
+  display: grid;
+  grid-template-rows: 56px minmax(0, 1fr);
+  height: 100vh;
+  color: var(--ink);
+}
+
+.workspace {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  gap: 14px;
+  padding: 18px 26px 24px;
+  overflow: hidden;
+}
+
+.archive-page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  min-height: 52px;
+}
+
+.eyebrow {
+  margin: 0 0 3px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 760;
+  line-height: 34px;
+}
+
+.topbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}

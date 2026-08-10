@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  min-width: 1120px;
+  min-height: 720px;
+  overflow: hidden;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled,
+input:disabled {
+  cursor: not-allowed;
+  opacity: 0.62;
+}
