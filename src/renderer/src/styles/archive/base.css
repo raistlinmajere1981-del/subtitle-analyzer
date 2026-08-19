@@ -1,0 +1,56 @@
+.archive-page {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.archive-grid {
+  display: grid;
+  grid-template-columns: 320px minmax(0, 1fr);
+  flex: 1;
+  gap: 18px;
+  align-items: stretch;
+  min-height: 0;
+}
+
+.archive-side-panel,
+.channel-pane,
+.filter-pane,
+.content-column,
+.panel,
+.table-panel,
+.subtitle-editor-panel {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+}
+
+.archive-side-panel {
+  display: grid;
+  grid-template-rows: minmax(0, 2fr) minmax(0, 3fr);
+  gap: 12px;
+  min-height: 0;
+  border: 0;
+  background: transparent;
+}
+
+.channel-pane,
+.filter-pane {
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+  gap: 14px;
+  padding: 16px;
+  min-height: 0;
+}
+
+.section-heading {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 28px;
+  color: #3f3a33;
+  font-size: 14px;
+  font-weight: 800;
+}

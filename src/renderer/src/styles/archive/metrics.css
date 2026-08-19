@@ -1,0 +1,56 @@
+.content-column {
+  display: grid;
+  min-height: 0;
+  gap: 0;
+  padding: 16px;
+}
+
+.metric-strip {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(130px, 1fr));
+  gap: 10px;
+}
+
+.metric {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto auto;
+  min-height: 78px;
+  gap: 4px 10px;
+  padding: 13px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.metric svg {
+  grid-row: span 2;
+  margin-top: 2px;
+}
+
+.metric span {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.metric strong {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.metric-blue svg {
+  color: var(--blue);
+}
+
+.metric-green svg {
+  color: var(--green);
+}
+
+.metric-amber svg {
+  color: var(--amber);
+}
+
+.metric-rose svg {
+  color: var(--rose);
+}
